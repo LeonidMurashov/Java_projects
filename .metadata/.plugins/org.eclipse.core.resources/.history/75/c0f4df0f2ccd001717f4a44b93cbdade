@@ -1,0 +1,16 @@
+package examples;
+import org.matheclipse.core.basic.Config;
+import org.matheclipse.parser.client.Parser;
+import org.matheclipse.parser.client.ast.ASTNode;
+
+public class MyCode {
+	
+	public void testAddTo() {
+		check("a = 10", "10");
+		check("a += 2", "12");
+		check("a", "12");
+	}
+	public static void main(String [] args){
+		System.out.println("hello");
+	}
+}
